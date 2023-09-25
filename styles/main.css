@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'hack';
+    src: url(HackNerdFont-Regular.ttf);
+}
+
+@keyframes gray_shadow {
+    0% {
+        box-shadow: 0 0px 20px 10px #3d3d3d; /* Color de fondo inicial */
+    }
+    20% {
+        box-shadow: 0 0px 20px 10px #797979; /* Cambio de color de fondo en el 25% de la animación */
+    }
+    30% {
+        box-shadow: 0 0px 20px 10px #8f8f8f; /* Cambio de color de fondo en el 50% de la animación */
+    }
+    40% {
+        box-shadow: 0 0px 20px 10px #b3b3b3; /* Cambio de color de fondo en el 75% de la animación */
+    }
+    50% {
+        box-shadow: 0 0px 20px 10px #c4c4c4; /* Color de fondo final (vuelve al color inicial) */
+    }
+    60% {
+        box-shadow: 0 0px 20px 10px #b3b3b3; /* Cambio de color de fondo en el 75% de la animación */
+    }
+    70% {
+        box-shadow: 0 0px 20px 10px #8f8f8f; /* Cambio de color de fondo en el 50% de la animación */
+    }
+    80% {
+        box-shadow: 0 0px 20px 10px #797979; /* Cambio de color de fondo en el 25% de la animación */
+    }
+    100% {
+        box-shadow: 0 0px 20px 10px #3d3d3d; /* Color de fondo inicial */
+    }
+}
+
+body
+{
+    font-family: 'hack';
+}
+
+.main
+{
+    background-color: #2B3B51;
+    margin: 10% 10% 0% 10%;
+    display: grid;
+    grid-row: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    animation: gray_shadow 5s linear infinite;
+}
+
+.links
+{
+    display: grid;
+    grid-row: auto;
+    margin: 0% 0% 15% 5%;
+}
+
+a
+{
+    text-decoration: none;
+    text-transform: none;
+    color: #f4a261;
+    margin-bottom: 5%;
+}
+
+h1
+{
+    color: #e2d075;
+}
