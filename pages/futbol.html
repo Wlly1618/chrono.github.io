@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futbol</title>
+    <link rel="stylesheet" href="../styles/pages.css">
+    <script defer src="../script/futbol.js"></script>
+</head>
+<body>
+    <div>
+        <div class="c-lights">
+            <div class="light left"></div>
+            <div class="light"></div>
+            <div class="light right"></div>
+        </div>
+
+        <div class="c-chrono" id="chrono">
+            <img src="../img/lnr.png" width="200px" height="200px">
+            <img src="../img/lab.jpeg" width="200px" height="200px">
+            <div class="chrono">
+                <span class="minute">00</span>
+                <span> : </span>
+                <span class="second">00</span>
+                <span> : </span>
+                <span class="micros">00</span>
+            </div>
+            <img src="../img/lab.jpeg" width="200px" height="200px">
+            <img src="../img/UTN.jpg" width="200px" height="200px">
+        </div>
+
+        <div class="c-buttons">
+            <button class="right" id="init">Iniciar</button>
+            <button id="stop">Detener</button>
+            <button class="left" id="reboot">Reiniciar</button>
+        </div>
+
+        <div class="c-goals">
+            <button id="add1">+1</button>
+            <button id="sub1">-1</button>
+            <button id="add2">+1</button>
+            <button id="sub2">-1</button>
+        </div>
+
+        <div class="c-setter">
+            <input type="number" id="limit">
+            <button id="setter">Set Tiempo (minutos)</button>
+        </div>
+
+        <div class="c-table">
+            <table id="table">
+                <thead>
+                    <th>Intervalo</th>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+
+    </div>
+
+    <footer>Created by: Solano Wilfredo Joel | GitHub: Wlly1618</footer>
+</body>
+</html>
