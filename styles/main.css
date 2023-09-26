@@ -36,6 +36,7 @@
 body
 {
     font-family: 'hack';
+    background-color: #0e0d0d;
 }
 
 .main
@@ -64,9 +65,11 @@ a
     text-transform: none;
     color: #f4a261;
     margin-bottom: 5%;
+    font-size: 35px;
 }
 
 h1
 {
     color: #e2d075;
+    font-size: 50px;
 }
